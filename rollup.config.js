@@ -6,7 +6,7 @@ module.exports = {
   output: {
     esModule: true,
     file: "dist/index.js",
-    format: "es",
+    format: "cjs",
     sourcemap: true,
   },
   plugins: [commonjs(), nodeResolve({ preferBuiltins: true })],
